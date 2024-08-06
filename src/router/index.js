@@ -7,7 +7,7 @@ import LanguageView from './LanguageView.vue'
 Vue.use(Router)
 
 const language = localStorage.getItem('language') || (navigator.language == 'zh-CN' ? 'zh-CN' : 'en-US')
-
+const test='test'
 export default new Router({
   routes: [
     {
